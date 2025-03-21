@@ -1,0 +1,85 @@
+export interface ReviewData {
+  likedText: string | null;
+  dislikedText: string | null;
+  reviewTitle: string | null;
+  travelerType: string;
+  userLocation: string;
+  userName: string;
+  userAvatar: string | null;
+  rating: number;
+  propertyResponse: string | null;
+  checkInDate: string;
+  checkOutDate: string;
+  reviewDate: string;
+  images: string[];
+  id: string;
+  roomInfo: string;
+  numberOfNights: number;
+  reviewLanguage: string;
+  stayRoomId: number;
+  helpfulVotes: number | null;
+  totalCategoryReviews: number;
+  hotelRatingScores: {
+    name: string;
+    codeName: string;
+    score: number;
+  }[];
+  hotelId: number;
+  reviewsScoreFilter: string;
+  reviewPage: number;
+  startUrl: string;
+}
+
+export interface GoogleReviewData {
+  reviewerId: string;
+  reviewerUrl: string;
+  name: string;
+  reviewerNumberOfReviews: number;
+  isLocalGuide: boolean;
+  reviewerPhotoUrl: string;
+  text: string;
+  textTranslated: string;
+  publishAt: string;
+  publishedAtDate: string;
+  likesCount: number;
+  reviewId: string;
+  reviewUrl: string;
+  reviewOrigin: string;
+  stars: number;
+  rating: null;
+  responseFromOwnerDate: null;
+  responseFromOwnerText: null;
+  reviewImageUrls: string[];
+  reviewContext: object;
+  reviewDetailedRating: object;
+  visitedIn: null;
+  originalLanguage: string;
+  translatedLanguage: string;
+  isAdvertisement: boolean;
+  placeId: string;
+  location: {
+    lat: number;
+    lng: number;
+  };
+  address: string;
+  neighborhood: string;
+  street: string;
+  city: string;
+  postalCode: string;
+  state: null;
+  countryCode: string;
+  categoryName: string;
+  categories: string[];
+  title: string;
+  totalScore: number;
+  permanentlyClosed: boolean;
+  temporarilyClosed: boolean;
+  reviewsCount: number;
+  url: string;
+  price: null;
+  cid: string;
+  fid: string;
+  imageUrl: string;
+  scrapedAt: string;
+  language: string;
+}
