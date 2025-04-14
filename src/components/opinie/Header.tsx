@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Dodajemy dyrektywę "use client"
 
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -16,20 +16,17 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="relative h-[100vh] overflow-hidden">
+    <header className="relative h-[80vh] overflow-hidden">
       <Image
-        src="/header.jpg"
-        alt="Zjecie domku z zewnątrz w Jeziorosferze"
-        className="object-cover w-full h-full filter brightness-10"
+        src="/kontakt.jpg"
+        alt="zdjecie domku jeziorosfera z zewnej strony"
+        className="object-cover w-full h-full filter brightness-75"
         fill
       />
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-TextW font-sora">
-        <h1 className="text-2xl text-center md:text-5xl font-medium mb-4">
-          JezioroSfera - Spokój lasu, bliskość jeziora
+      <div className="absolute inset-0 flex flex-col justify-center text-TextW font-sora">
+        <h1 className="text-2xl text-center  md:text-7xl font-medium mb-4">
+          Opinie naszych gości
         </h1>
-        <p className="text-xl text-center md:text-4xl font-medium">
-          Twój wymarzony wypoczynek pod Mrągowem
-        </p>
       </div>
       <div
         className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex justify-center items-center cursor-pointer hover:scale-110 transition-all duration-300"

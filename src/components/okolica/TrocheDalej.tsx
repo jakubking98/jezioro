@@ -2,22 +2,63 @@ import React from "react";
 import Slider from "../Slider";
 import Image from "next/image";
 
+// Definicja typu ImageData (można też zaimportować, jeśli jest w osobnym pliku)
+interface ImageData {
+  src: string;
+  alt: string;
+}
+
 export default function TrocheDalej() {
-  const KajakiImages = [
-    "/stodola/okolica/kajaki/1.jpg",
-    "/stodola/okolica/kajaki/2.jpg",
-    "/stodola/okolica/kajaki/3.jpg",
-    "/stodola/okolica/kajaki/4.jpg",
+  // Obrazy dla spływów kajakowych z opisowymi altami
+  const KajakiImages: ImageData[] = [
+    {
+      src: "/stodola/okolica/kajaki/1.jpg",
+      alt: "Spływ kajakowy rzeką Krutynią - kajaki na wodzie wśród zieleni",
+    },
+    {
+      src: "/stodola/okolica/kajaki/2.jpg",
+      alt: "Malownicza rzeka Krutynia - widok z kajaka na spokojną wodę i las",
+    },
+    {
+      src: "/stodola/okolica/kajaki/3.jpg",
+      alt: "Grupa kajakarzy płynąca rzeką Krutynią na Mazurach",
+    },
+    {
+      src: "/stodola/okolica/kajaki/4.jpg",
+      alt: "Kajak na brzegu rzeki Krutyni, gotowy do spływu",
+    },
   ];
 
-  const ParkImages = [
-    "/stodola/okolica/park/1.jpg",
-    "/stodola/okolica/park/2.jpg",
-    "/stodola/okolica/park/3.jpg",
-    "/stodola/okolica/park/4.jpg",
-    "/stodola/okolica/park/5.jpg",
-    "/stodola/okolica/park/6.jpg",
-    "/stodola/okolica/park/7.jpg",
+  // Obrazy dla Parku Dzikich Zwierząt z opisowymi altami
+  const ParkImages: ImageData[] = [
+    {
+      src: "/stodola/okolica/park/1.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Jeleń na terenie parku",
+    },
+    {
+      src: "/stodola/okolica/park/2.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Bociany w gnieździe",
+    },
+    {
+      src: "/stodola/okolica/park/3.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Dzikie ptactwo wodne na stawie",
+    },
+    {
+      src: "/stodola/okolica/park/4.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Osły na wybiegu",
+    },
+    {
+      src: "/stodola/okolica/park/5.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Tarpany (dzikie konie) na pastwisku",
+    },
+    {
+      src: "/stodola/okolica/park/6.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Zwiedzający obserwujący zwierzęta",
+    },
+    {
+      src: "/stodola/okolica/park/7.jpg",
+      alt: "Park Dzikich Zwierząt Kadzidłowo - Wilki w swojej zagrodzie",
+    },
   ];
 
   return (
@@ -60,7 +101,9 @@ export default function TrocheDalej() {
         jezior, w tym Jezioro Gardyńskie i Jezioro Malinówko. Spływ kończymy w
         Iznocie. <br /> <br />
       </p>
+      {/* Użycie Slidera z obiektami ImageData */}
       <Slider images={KajakiImages} />
+
       <h5 className="text-TextN font-sora text-xl md:text-xl pt-2 md:pt-10 font-bold">
         Mrągowo
       </h5>
@@ -76,9 +119,11 @@ export default function TrocheDalej() {
           src="/stodola/okolica/mragowo.jpg"
           fill
           className="object-cover"
-          alt={""}
+          alt="Mrągowo - Widok na jezioro Czos i amfiteatr" // Dodano opisowy alt
+          loading="lazy" // Dodano lazy loading
         />
       </div>
+
       <h5 className="text-TextN font-sora text-xl md:text-xl pt-10 font-bold">
         Park Dzikich Zwierząt Kadzidłowo
       </h5>
@@ -98,7 +143,9 @@ export default function TrocheDalej() {
         kasie Parku za symboliczną złotówkę. Ta interakcja sprawia, że wizyta w
         Parku pozostaje na długo w pamięci.
       </p>
+      {/* Użycie Slidera z obiektami ImageData */}
       <Slider images={ParkImages} />
+
       <h5 className="text-TextN font-sora text-xl md:text-xl pt-2 md:pt-10 font-bold">
         Mikołajki
       </h5>
@@ -116,7 +163,8 @@ export default function TrocheDalej() {
           src="/stodola/okolica/mikolajki.jpg"
           fill
           className="object-cover"
-          alt={""}
+          alt="Mikołajki - Port jachtowy i promenada nad Jeziorem Mikołajskim" // Dodano opisowy alt
+          loading="lazy" // Dodano lazy loading
         />
       </div>
     </>

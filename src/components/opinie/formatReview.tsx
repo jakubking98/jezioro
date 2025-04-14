@@ -15,8 +15,8 @@ interface DisplayBookingReviewsProps {
 const FormatReview = ({ review }: { review: ReviewData }) => {
   const [showFullLiked, setShowFullLiked] = useState(false);
   const [showFullDisliked, setShowFullDisliked] = useState(false);
-  const [showFullPropertyResponse, setShowFullPropertyResponse] =
-    useState(false);
+  // const [showFullPropertyResponse, setShowFullPropertyResponse] =
+  //   useState(false);
   const reviewRef = useRef<HTMLDivElement>(null);
 
   const formattedDate = new Date(review.reviewDate).toLocaleDateString(
@@ -51,9 +51,9 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     setShowFullDisliked(!showFullDisliked);
   };
 
-  const togglePropertyResponse = () => {
-    setShowFullPropertyResponse(!showFullPropertyResponse);
-  };
+  // const togglePropertyResponse = () => {
+  //   setShowFullPropertyResponse(!showFullPropertyResponse);
+  // };
 
   const displayLikedText = review.likedText ? (
     <div className="flex-grow min-h-[100px]">
@@ -101,28 +101,28 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     </div>
   ) : null;
 
-  const displayPropertyResponse = review.propertyResponse ? (
-    <div className="bg-gray-100 p-4 rounded-md mb-4 flex-grow">
-      <p className="font-semibold text-sm sm:text-base">Odpowiedź obiektu:</p>
-      <p className="text-sm sm:text-base">
-        {showFullPropertyResponse
-          ? review.propertyResponse
-          : review.propertyResponse.length > 300
-          ? review.propertyResponse.substring(0, 300) + "..."
-          : review.propertyResponse}
-      </p>
-      {review.propertyResponse.length > 300 && (
-        <div className="mt-2">
-          <button
-            onClick={togglePropertyResponse}
-            className="text-blue-500 mt-2 hover:underline"
-          >
-            {showFullPropertyResponse ? "Zwiń" : "Czytaj więcej"}
-          </button>
-        </div>
-      )}
-    </div>
-  ) : null;
+  // const displayPropertyResponse = review.propertyResponse ? (
+  //   <div className="bg-gray-100 p-4 rounded-md mb-4 flex-grow">
+  //     <p className="font-semibold text-sm sm:text-base">Odpowiedź obiektu:</p>
+  //     <p className="text-sm sm:text-base">
+  //       {showFullPropertyResponse
+  //         ? review.propertyResponse
+  //         : review.propertyResponse.length > 300
+  //         ? review.propertyResponse.substring(0, 300) + "..."
+  //         : review.propertyResponse}
+  //     </p>
+  //     {review.propertyResponse.length > 300 && (
+  //       <div className="mt-2">
+  //         <button
+  //           onClick={togglePropertyResponse}
+  //           className="text-blue-500 mt-2 hover:underline"
+  //         >
+  //           {showFullPropertyResponse ? "Zwiń" : "Czytaj więcej"}
+  //         </button>
+  //       </div>
+  //     )}
+  //   </div>
+  // ) : null;
 
   const displayImages =
     review.images.length > 0 ? (
@@ -147,7 +147,7 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     <div
       key={review.id}
       ref={reviewRef}
-      className=" border border-gray-300 p-4 sm:p-6 rounded-lg shadow-md bg-white flex flex-col"
+      className=" border border-gray-300 h-auto p-4 sm:p-6 rounded-lg shadow-md bg-white flex flex-col"
     >
       <div className="flex items-center mb-4">
         {review.userAvatar ? (
@@ -186,8 +186,6 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
         Pobyt: {review.checkInDate} - {review.checkOutDate} (
         {review.numberOfNights} noce)
       </p>
-
-      {displayPropertyResponse}
 
       <p className="text-gray-500 text-xs sm:text-sm">
         Dodano: {formattedDate}

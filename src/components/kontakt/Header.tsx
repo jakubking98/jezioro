@@ -19,8 +19,8 @@ export default function Header() {
     <header className="relative h-[80vh] overflow-hidden">
       <Image
         src="/kontakt.jpg"
-        alt="kontakt"
-        className="object-cover w-full h-full filter brightness-50"
+        alt="Jeziorosfera - Skontaktuj się z nami - widok na jezioro"
+        className="object-cover w-full h-full filter brightness-75"
         fill
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-TextW font-sora">

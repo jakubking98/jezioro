@@ -19,7 +19,7 @@ export default function Header() {
     <header className="relative h-[80vh] overflow-hidden">
       <Image
         src="/pokoje.jpg"
-        alt="Pokoje"
+        alt="Wnętrze salonu w Jeziorosferze"
         className="object-cover w-full h-full filter brightness-50"
         fill
       />

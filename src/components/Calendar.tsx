@@ -161,6 +161,7 @@ const Legend: React.FC = () => {
         <div className="legend-color-box react-calendar__tile--now"></div>
         <span className="ml-2">Dzisiejsza data</span>
       </div>
+      <p className="mt-2">Rezerwacja jest możliwa na minimum 4 noce.</p>
     </div>
   );
 };

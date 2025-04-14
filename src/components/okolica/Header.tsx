@@ -19,7 +19,7 @@ export default function Header() {
     <header className="relative h-[80vh] overflow-hidden">
       <Image
         src="/okolica.jpg"
-        alt="okolica"
+        alt="Malownicza okolica Jeziorosfery na Mazurach - las i jezioro"
         className="object-cover w-full h-full filter brightness-50"
         fill
       />

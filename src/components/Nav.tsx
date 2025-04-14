@@ -52,7 +52,7 @@ export default function Nav({ isShort }: NavProps) {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className={`  focus:outline-none md:hidden ${
+            className={`  focus:outline-none xl:hidden ${
               isScrolled ? " text-TextN " : " text-TextW "
             }`}
           >
@@ -60,7 +60,7 @@ export default function Nav({ isShort }: NavProps) {
           </button>
           {/* Desktop Navigation Links */}
           <ul
-            className={`hidden md:flex space-x-6 font-sora md:text-2xl ${
+            className={`hidden xl:flex space-x-6 font-sora md:text-2xl ${
               isScrolled ? " text-TextN " : " text-TextW "
             } `}
           >
@@ -86,6 +86,14 @@ export default function Nav({ isShort }: NavProps) {
                 className="hover:text-MenuC2 transition-colors duration-200"
               >
                 Okolica
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/opinie-nagrody"
+                className="hover:text-MenuC2 transition-colors duration-200"
+              >
+                Opinie Gości i Nagrody
               </Link>
             </li>
             <li>
@@ -126,6 +134,15 @@ export default function Nav({ isShort }: NavProps) {
           <li>
             <Link href="/okolica" className="text-xl" onClick={toggleMenu}>
               Okolica
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/opinie-nagrody"
+              className="text-xl"
+              onClick={toggleMenu}
+            >
+              Opinie i Nagrody
             </Link>
           </li>
           <li>

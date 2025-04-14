@@ -1,0 +1,6 @@
+# robots.txt dla JezioroSfera
+
+User-agent: *
+Allow: /
+
+Sitemap: https://jeziorosfera.pl/sitemap.xml

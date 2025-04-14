@@ -4,7 +4,14 @@ import GaleriaPokoje from "@/components/pokoje/GaleriaPokoje";
 import Header from "@/components/pokoje/Header";
 import PokojeOpis from "@/components/pokoje/PokojeOpis";
 import React from "react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Pokoje Gościnne na Mazurach",
+  description:
+    "Komfortowe pokoje w Jeziorosferze. Zobacz zdjęcia i opisy naszych sypialni. Idealne noclegi na Mazurach.",
+  alternates: { canonical: "/pokoje" },
+};
 export default function PokojePage() {
   return (
     <div className="relative min-h-screen max-w-screen ">

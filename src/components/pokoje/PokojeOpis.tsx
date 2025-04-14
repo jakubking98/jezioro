@@ -18,6 +18,13 @@ export default function PokojeOpis() {
         że natura dosłownie wchodzi do pomieszczeń. Ciepło drewna zapewnia
         przytulną atmosferę, tworząc idealne warunki do odpoczynku.
       </p>
+      <p className="text-TextN font-sora px-5 md:px-0 text-sm md:text-lg text-center pb-10 max-w-[900px] tracking-wide ">
+        Łóżka dla naszych Gości wykonaliśmy również z drewna i tkanin, dbając o
+        dobór materacy. Cztery pokoje sypialniane rozmieściliśmy na dwóch
+        kondygnacjach. Jeden na dolnym poziomie wyposażony w łóżko o wymiarach
+        160x200 oraz trzy na górnym z łóżkami o wymiarach: 160x200, 140x200 oraz
+        dwa łóżka 90x200.
+      </p>
     </>
   );
 }

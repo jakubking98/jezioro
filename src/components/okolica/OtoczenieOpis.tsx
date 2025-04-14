@@ -1,14 +1,37 @@
 import React from "react";
 import Slider from "../Slider";
 
+// Definicja typu ImageData (można też zaimportować, jeśli jest w osobnym pliku)
+interface ImageData {
+  src: string;
+  alt: string;
+}
+
 export default function OtoczenieOpis() {
-  const OkolicaImages = [
-    "/stodola/okolica/blisko/1.jpg",
-    "/stodola/okolica/blisko/2.jpg",
-    "/stodola/okolica/blisko/3.jpg",
-    "/stodola/okolica/blisko/4.jpg",
-    "/stodola/okolica/blisko/5.jpg",
+  // Obrazy dla najbliższego otoczenia z opisowymi altami
+  const OkolicaImages: ImageData[] = [
+    {
+      src: "/stodola/okolica/blisko/1.jpg",
+      alt: "JezioroSfera - Widok na drewniany pomost nad jeziorem o poranku",
+    },
+    {
+      src: "/stodola/okolica/blisko/2.jpg",
+      alt: "JezioroSfera - Łódka zacumowana przy pomoście, gotowa do wypłynięcia",
+    },
+    {
+      src: "/stodola/okolica/blisko/3.jpg",
+      alt: "JezioroSfera - Miejsce na ognisko z ławkami w ogrodzie",
+    },
+    {
+      src: "/stodola/okolica/blisko/4.jpg",
+      alt: "JezioroSfera - Chata grillowa z miejscem do siedzenia w ogrodzie",
+    },
+    {
+      src: "/stodola/okolica/blisko/5.jpg",
+      alt: "JezioroSfera - Bujane siedziska i leżaki na tarasie z widokiem na ogród",
+    },
   ];
+
   return (
     <>
       <h2 className="text-TextN font-sora text-xl py-10 ">OTOCZENIE</h2>
@@ -35,6 +58,7 @@ export default function OtoczenieOpis() {
         Dla wytrwałych, dojazd do Mrągowa zapewnia włączenie się do Mazurskiej
         Pętli Rowerowej.
       </p>
+      {/* Użycie Slidera z obiektami ImageData */}
       <Slider images={OkolicaImages} />
     </>
   );

@@ -4,7 +4,15 @@ import DalszeOtoczenie from "@/components/okolica/DalszeOtoczenie";
 import Header from "@/components/okolica/Header";
 import OtoczenieOpis from "@/components/okolica/OtoczenieOpis";
 import TrocheDalej from "@/components/okolica/TrocheDalej";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Atrakcje w Okolicy Jeziorosfery",
+  description:
+    "Odkryj atrakcje Mazur w pobliżu Jeziorosfery. Szlaki rowerowe, jeziora, stadnina koni, Mrągowo, Mikołajki. Zaplanuj aktywny wypoczynek.",
+  alternates: { canonical: "/okolica" },
+};
 
 export default function OkolicaPage() {
   return (

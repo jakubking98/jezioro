@@ -1,11 +1,17 @@
-// filepath: c:\Users\jakub\Downloads\JeziorSfera\Nowy folder (4)\jezioro\src\app\kontakt\page.tsx
 import CalendarComponent from "@/components/Calendar";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Header from "@/components/kontakt/Header";
 import Nav from "@/components/Nav";
+import { Metadata } from "next";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "Kontakt i Rezerwacja",
+  description:
+    "Skontaktuj się z nami w sprawie rezerwacji pobytu w Jeziorosferze. Sprawdź dostępność w kalendarzu i wyślij zapytanie.",
+  alternates: { canonical: "/kontakt" },
+};
 const KontaktPage: React.FC = () => {
   return (
     <div className="relative min-h-screen max-w-screen">
