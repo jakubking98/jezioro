@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.jeziorosfera.pl/
+
+# Sitemaps
+Sitemap: https://www.jeziorosfera.pl/sitemap.xml
