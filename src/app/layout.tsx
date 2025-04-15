@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "@/styles/globals.css";
+import Head from "next/head";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -82,6 +83,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${sora.variable} scroll-smooth`}>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="MfOAooGVSvZhVXvrYD_t_7-wjSUg8PTrYc8_t208mrE"
+        />
+      </Head>
       <body className={`font-sora bg-BodyC text-TextN`}>{children}</body>
     </html>
   );
