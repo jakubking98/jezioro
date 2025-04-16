@@ -15,7 +15,7 @@ export default function HomePage() {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/50 to-black/50 flex flex-col justify-center items-center text-white text-center">
         <h1 className="text-[3rem] mb-8 lg:mb-4 font-sora sm:text-[5rem] md:text-[7rem]">
-          JezioroSfera
+          Jeziorosfera
         </h1>
         <nav className="menu flex flex-wrap justify-center gap-4 font-sora">
           <Link

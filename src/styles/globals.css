@@ -207,3 +207,28 @@ html {
 .react-calendar__century-view__decades__decade:enabled:focus {
   background-color: #d6d6d6;
 }
+
+/* swiper */
+
+/* Ukryj strzałki nawigacyjne Swipera, gdy są nieaktywne */
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0; /* Ukryj przez przezroczystość */
+  cursor: auto; /* Zmień kursor, aby nie sugerował klikalności */
+  pointer-events: none; /* Wyłącz interakcje myszy */
+  visibility: hidden; /* Dodatkowo ukryj element */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Opcjonalna płynna animacja */
+}
+
+/* Opcjonalnie: Upewnij się, że aktywne strzałki są widoczne */
+.swiper-button-prev,
+.swiper-button-next {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Możesz dostosować selektory, jeśli używasz niestandardowych klas dla przycisków nawigacji */
+/* np. jeśli masz <div className="my-custom-prev">...</div> */
+/* .my-custom-prev.swiper-button-disabled, */
+/* .my-custom-next.swiper-button-disabled { ... } */
