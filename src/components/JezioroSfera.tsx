@@ -31,7 +31,7 @@ export default function JezioroSfera({ isScrolled, dark }: JezioroSferaProps) {
         }`}
         style={{ filter: "url(#shadow)" }}
       >
-        JezioroSfera
+        Jeziorosfera
       </text>
     </svg>
   );

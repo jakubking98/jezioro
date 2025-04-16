@@ -12,23 +12,23 @@ export default function OtoczenieOpis() {
   const OkolicaImages: ImageData[] = [
     {
       src: "/stodola/okolica/blisko/1.jpg",
-      alt: "JezioroSfera - Widok na drewniany pomost nad jeziorem o poranku",
+      alt: "Jeziorosfera - Widok na drewniany pomost nad jeziorem o poranku",
     },
     {
       src: "/stodola/okolica/blisko/2.jpg",
-      alt: "JezioroSfera - Łódka zacumowana przy pomoście, gotowa do wypłynięcia",
+      alt: "Jeziorosfera - Łódka zacumowana przy pomoście, gotowa do wypłynięcia",
     },
     {
       src: "/stodola/okolica/blisko/3.jpg",
-      alt: "JezioroSfera - Miejsce na ognisko z ławkami w ogrodzie",
+      alt: "Jeziorosfera - Miejsce na ognisko z ławkami w ogrodzie",
     },
     {
       src: "/stodola/okolica/blisko/4.jpg",
-      alt: "JezioroSfera - Chata grillowa z miejscem do siedzenia w ogrodzie",
+      alt: "Jeziorosfera - Chata grillowa z miejscem do siedzenia w ogrodzie",
     },
     {
       src: "/stodola/okolica/blisko/5.jpg",
-      alt: "JezioroSfera - Bujane siedziska i leżaki na tarasie z widokiem na ogród",
+      alt: "Jeziorosfera - Bujane siedziska i leżaki na tarasie z widokiem na ogród",
     },
   ];
 

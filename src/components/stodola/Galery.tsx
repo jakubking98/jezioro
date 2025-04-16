@@ -18,12 +18,12 @@ export default function Galery() {
   };
 
   const imageAlts = [
-    "JezioroSfera - Widok na salon i antresolę w nowoczesnej stodole na Mazurach",
-    "JezioroSfera - Przestronny salon z dużym stołem i widokiem na jezioro",
-    "JezioroSfera - Przytulna sypialnia z podwójnym łóżkiem w stodole",
-    "JezioroSfera - Nowoczesna łazienka z prysznicem w domu wakacyjnym",
-    "JezioroSfera - Widok z antresoli na salon i jezioro, idealne miejsce na wypoczynek",
-    "JezioroSfera - Elegancka kuchnia w pełni wyposażona, otwarta na salon",
+    "Jeziorosfera - Widok na salon i antresolę w nowoczesnej stodole na Mazurach",
+    "Jeziorosfera - Przestronny salon z dużym stołem i widokiem na jezioro",
+    "Jeziorosfera - Przytulna sypialnia z podwójnym łóżkiem w stodole",
+    "Jeziorosfera - Nowoczesna łazienka z prysznicem w domu wakacyjnym",
+    "Jeziorosfera - Widok z antresoli na salon i jezioro, idealne miejsce na wypoczynek",
+    "Jeziorosfera - Elegancka kuchnia w pełni wyposażona, otwarta na salon",
   ];
 
   const imagePaths = [
@@ -133,7 +133,7 @@ export default function Galery() {
           >
             <Image
               src={currentImage}
-              alt="JezioroSfera - Powiększone zdjęcie z galerii"
+              alt="Jeziorosfera - Powiększone zdjęcie z galerii"
               fill
               className="object-contain"
             />

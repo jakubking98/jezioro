@@ -8,7 +8,7 @@ export default function Footer() {
         <JezioroSfera dark={true} />
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-6 text-lg text-TextN font-semibold font-sora">
-            Adress:
+            Adres:
             <br />
             Brejdyny 32c <br /> 11-710 Brejdyny
           </div>

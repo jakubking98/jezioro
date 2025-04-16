@@ -25,7 +25,7 @@ export default function Header() {
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-TextW font-sora">
         <h1 className="text-2xl text-center md:text-5xl font-medium mb-4">
-          JezioroSfera - Spokój lasu, bliskość jeziora
+          Jeziorosfera - Spokój lasu, bliskość jeziora
         </h1>
         <p className="text-xl text-center md:text-4xl font-medium">
           Twój wymarzony wypoczynek pod Mrągowem

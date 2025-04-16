@@ -18,7 +18,7 @@ export default function OurHouse() {
         możliwość wspólnego gotowania i pobycia ze sobą. U góry antresola z
         wodnym klimatem sprawi, że poczujesz się, jak na łódce a pokoje zapewnią
         ucieczkę w przytulny świat snu. <br />
-        <br /> Pozostawiamy dla Ciebie JezioroSfere, czyli 190m2 stodoły, która
+        <br /> Pozostawiamy dla Ciebie Jeziorosferę, czyli 190m2 stodoły, która
         oferuje cztery, komfortowe sypialnie, z których trzy wyposażone są w
         duże, podwójne łóżka, a jedna w dwa pojedyncze łóżka. Domek może
         wygodnie pomieścić 8 gości.

@@ -13,7 +13,7 @@ export default function AboutUs() {
       <p className="text-TextN font-sora px-5 md:px-0 text-sm md:text-lg text-center py-10 max-w-[900px] tracking-wide ">
         Ucieknij od miasta, hałasu, ścisłych zabudowań. Czekamy na Ciebie w
         środku Mazurskiego Parku Krajobrazowego na skraju Puszczy Piskiej przy
-        brzegu jeziora z naszą JezioroSferą. <br /> <br /> Odpocznij na leżaku w
+        brzegu jeziora z naszą Jeziorosferą. <br /> <br /> Odpocznij na leżaku w
         ogrodzie lub na pomoście. Obserwuj zmieniający się kolor wody, pływające
         po niebie chmury, zachody słońca. Kosztuj przyrodę. Spotkaj się z
         łabędziami, kaczkami, pluskającymi rybami, posłuchaj klangoru żurawi,
