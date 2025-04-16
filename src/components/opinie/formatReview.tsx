@@ -205,6 +205,8 @@ const DisplayBookingReviews = ({ reviewsData }: DisplayBookingReviewsProps) => {
         modules={[Navigation]}
         spaceBetween={20}
         slidesPerView={1}
+        navigation={true}
+        pagination={{ clickable: true }}
         autoHeight={true}
         breakpoints={{
           640: {

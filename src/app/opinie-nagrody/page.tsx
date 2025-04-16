@@ -26,7 +26,7 @@ export default function page() {
       <div className="flex w-full flex-col  items-center  bg-BodyC">
         <div className="max-w-[1650px] flex flex-col items-center  w-full">
           <Opinie />
-          <div className="flex flex-col md:flex-row w-full gap-8 p-4">
+          <div className="flex flex-col md:flex-row w-full gap-8 px-20 py-6">
             <div className="w-full md:w-1/2">
               <DisplayBookingReviews
                 reviewsData={reviewsData as ReviewData[]}
