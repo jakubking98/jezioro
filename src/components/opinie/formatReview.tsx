@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -13,10 +13,6 @@ interface DisplayBookingReviewsProps {
 }
 
 const FormatReview = ({ review }: { review: ReviewData }) => {
-  const [showFullLiked, setShowFullLiked] = useState(false);
-  const [showFullDisliked, setShowFullDisliked] = useState(false);
-  // const [showFullPropertyResponse, setShowFullPropertyResponse] =
-  //   useState(false);
   const reviewRef = useRef<HTMLDivElement>(null);
 
   const formattedDate = new Date(review.reviewDate).toLocaleDateString(
@@ -43,38 +39,11 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     <h4 className="font-semibold mb-2 text-lg">{review.reviewTitle}</h4>
   ) : null;
 
-  const toggleLikedText = () => {
-    setShowFullLiked(!showFullLiked);
-  };
-
-  const toggleDislikedText = () => {
-    setShowFullDisliked(!showFullDisliked);
-  };
-
-  // const togglePropertyResponse = () => {
-  //   setShowFullPropertyResponse(!showFullPropertyResponse);
-  // };
-
   const displayLikedText = review.likedText ? (
     <div className="flex-grow min-h-[100px]">
       <p className="mb-6 text-sm sm:text-base">
-        <b className="text-green-600">Co się podobało:</b>{" "}
-        {showFullLiked
-          ? review.likedText
-          : review.likedText.length > 200
-          ? review.likedText.substring(0, 200) + "..."
-          : review.likedText}
+        <b className="text-green-600">Co się podobało:</b> {review.likedText}
       </p>
-      {review.likedText.length > 200 && (
-        <div className="mt-2">
-          <button
-            onClick={toggleLikedText}
-            className="text-blue-500 ml-2 hover:underline"
-          >
-            {showFullLiked ? "Zwiń" : "Czytaj więcej"}
-          </button>
-        </div>
-      )}
     </div>
   ) : null;
 
@@ -82,22 +51,8 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     <div className="flex-grow min-h-[100px]">
       <p className="mb-6 text-sm sm:text-base">
         <b className="text-red-600">Co się nie podobało:</b>{" "}
-        {showFullDisliked
-          ? review.dislikedText
-          : review.dislikedText.length > 200
-          ? review.dislikedText.substring(0, 200) + "..."
-          : review.dislikedText}
+        {review.dislikedText}
       </p>
-      {review.dislikedText.length > 200 && (
-        <div className="mt-2">
-          <button
-            onClick={toggleDislikedText}
-            className="text-blue-500 ml-2 hover:underline"
-          >
-            {showFullDisliked ? "Zwiń" : "Czytaj więcej"}
-          </button>
-        </div>
-      )}
     </div>
   ) : null;
 
@@ -105,22 +60,8 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
   //   <div className="bg-gray-100 p-4 rounded-md mb-4 flex-grow">
   //     <p className="font-semibold text-sm sm:text-base">Odpowiedź obiektu:</p>
   //     <p className="text-sm sm:text-base">
-  //       {showFullPropertyResponse
-  //         ? review.propertyResponse
-  //         : review.propertyResponse.length > 300
-  //         ? review.propertyResponse.substring(0, 300) + "..."
-  //         : review.propertyResponse}
+  //       {review.propertyResponse}
   //     </p>
-  //     {review.propertyResponse.length > 300 && (
-  //       <div className="mt-2">
-  //         <button
-  //           onClick={togglePropertyResponse}
-  //           className="text-blue-500 mt-2 hover:underline"
-  //         >
-  //           {showFullPropertyResponse ? "Zwiń" : "Czytaj więcej"}
-  //         </button>
-  //       </div>
-  //     )}
   //   </div>
   // ) : null;
 
@@ -147,7 +88,7 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
     <div
       key={review.id}
       ref={reviewRef}
-      className=" border border-gray-300 h-auto p-4 sm:p-6 rounded-lg shadow-md bg-white flex flex-col"
+      className=" border border-gray-300 h-auto p-4 px-12 sm:p-6 sm:px-12  rounded-lg shadow-md bg-white flex flex-col"
     >
       <div className="flex items-center mb-4">
         {review.userAvatar ? (

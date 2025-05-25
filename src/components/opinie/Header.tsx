@@ -25,7 +25,7 @@ export default function Header() {
       />
       <div className="absolute inset-0 flex flex-col justify-center text-TextW font-sora">
         <h1 className="text-2xl text-center  md:text-7xl font-medium mb-4">
-          Opinie naszych gości
+          Opinie naszych Gości
         </h1>
       </div>
       <div

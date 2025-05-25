@@ -3,8 +3,7 @@ import React from "react";
 export default function PokojeOpis() {
   return (
     <>
-      <h2 className="text-TextN font-sora text-xl py-10 ">POKOJE</h2>
-      <h3 className="text-TextN font-sora text-3xl md:text-4xl font-semibold tracking-widest">
+      <h3 className="text-TextN font-sora text-3xl md:text-4xl font-semibold tracking-widest py-10">
         NASZE POKOJE:
       </h3>
       <h3 className="text-TextN font-ogg text-3xl md:text-4xl font-thin tracking-widest text-center mt-4">

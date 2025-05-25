@@ -103,7 +103,7 @@ export default function DalszeOtoczenie() {
       </h5>
       <p className="text-TextN font-sora px-5 md:px-0 text-sm md:text-lg text-center py-5 max-w-[1000px] tracking-wide ">
         W okolicach miejscowości Brejdyny (1,5km) znajduje się położone w
-        dolince Jezioro Wągiel w całości otoczone lasem Kameralna, piaszczysta
+        dolince Jezioro Wągiel w całości otoczone lasem. Kameralna, piaszczysta
         plaża, pomost, wydzielone strefy do pływania i zazwyczaj obecny ratownik
         to udogodnienia oferowane przez to miejsce.
       </p>
@@ -141,16 +141,16 @@ export default function DalszeOtoczenie() {
         Łatwy Dostęp do Żółtego Szlaku Rowerowego &quot;Ernsta Wiecherta&quot;
       </h5>
       <p className="text-TextN font-sora px-5 md:px-0 text-sm md:text-lg text-center py-5 max-w-[1000px] tracking-wide ">
-        Jednym z atutów JezioroSfery jest jej wyjątkowe położenie, które
+        Jednym z atutów Jeziorosfery jest jej wyjątkowe położenie, które
         umożliwia łatwy dostęp do malowniczego szlaku rowerowego nazwanego na
         cześć słynnego pisarza - Ernsta Wiecherta. <br />
         <br /> Ten urokliwy szlak, będący tuż za progiem naszej stodoły,
-        prowadzi przez meandry mazurskiej przyrody: lasy, brzegami jezior, wśród
-        polan. Tu rozpoczyna się przygoda, która zadowoli zarówno doświadczonych
-        rowerzystów, jak i rodziny z dziećmi. <br /> <br /> Szlak żółty Ernsta
-        Wiecherta to szlak rowerowy o długości 44.9 km. Podczas trasy rowerzyści
-        pokonają 1018 m podjazdów i 1010 m zjazdów. Najwyższy punkt szlaku jest
-        na wysokości 214.0 m n.p.m.
+        prowadzi przez meandry mazurskiej przyrody: lasami, brzegami jezior,
+        wśród polan. Tu rozpoczyna się przygoda, która zadowoli zarówno
+        doświadczonych rowerzystów, jak i rodziny z dziećmi. <br /> <br /> Szlak
+        żółty Ernsta Wiecherta to szlak rowerowy o długości 44.9 km. Podczas
+        trasy rowerzyści pokonają 1018 m podjazdów i 1010 m zjazdów. Najwyższy
+        punkt szlaku jest na wysokości 214.0 m n.p.m.
       </p>
       <div className=" w-full md:w-[1000px] h-[500px] ">
         <iframe

@@ -23,7 +23,7 @@ export default function BookingPrize() {
           zobaczenia w Jeziorosferze
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
-          <div className="relative w-[200px] h-[150px] md:w-[400px] md:h-[400px]">
+          <div className="relative w-[300px] h-[250px] md:w-[400px] md:h-[400px]">
             <Image
               src="/stodola/opinie/bookingPrize.png"
               alt="Nagroda Booking.com - Traveller Review Award 2025"
@@ -31,7 +31,7 @@ export default function BookingPrize() {
               objectFit="contain"
             />
           </div>
-          <div className="relative w-[200px] h-[150px] md:w-[400px] md:h-[400px]">
+          <div className="relative w-[300px] h-[250px] md:w-[400px] md:h-[400px]">
             <Image
               src="/stodola/opinie/bookingPrize1.png"
               alt="Nagroda Booking.com - Ocena 10/10"

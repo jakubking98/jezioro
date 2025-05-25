@@ -34,8 +34,7 @@ export default function OtoczenieOpis() {
 
   return (
     <>
-      <h2 className="text-TextN font-sora text-xl py-10 ">OTOCZENIE</h2>
-      <h3 className="text-TextN font-sora text-3xl md:text-4xl font-semibold tracking-widest text-center">
+      <h3 className="text-TextN font-sora text-3xl md:text-4xl font-semibold tracking-widest text-center py-10">
         RELAKS CZY AKTYWNOŚĆ
       </h3>
       <h3 className="text-TextN font-ogg text-3xl md:text-4xl font-thin tracking-widest text-center mt-4">

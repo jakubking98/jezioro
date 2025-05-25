@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -13,8 +12,6 @@ interface DisplayGoogleReviewsProps {
 }
 
 const FormatGoogleReview = ({ review }: { review: GoogleReviewData }) => {
-  const [showFullText, setShowFullText] = useState(false);
-
   const formattedDate = new Date(review.publishedAtDate).toLocaleDateString(
     "pl-PL",
     {
@@ -29,30 +26,9 @@ const FormatGoogleReview = ({ review }: { review: GoogleReviewData }) => {
       ? "★".repeat(Math.round(review.stars)) +
         "☆".repeat(Math.max(0, 5 - Math.round(review.stars)))
       : "";
-
-  const toggleText = () => {
-    setShowFullText(!showFullText);
-  };
-
   const displayText = review.text ? (
     <div className="flex-grow min-h-[100px]">
-      <p className="mb-6 text-sm sm:text-base">
-        {showFullText
-          ? review.text
-          : review.text.length > 200
-          ? review.text.substring(0, 200) + "..."
-          : review.text}
-      </p>
-      {review.text.length > 200 && (
-        <div className="mt-2">
-          <button
-            onClick={toggleText}
-            className="text-blue-500 ml-2 hover:underline"
-          >
-            {showFullText ? "Zwiń" : "Czytaj więcej"}
-          </button>
-        </div>
-      )}
+      <p className="mb-6 text-sm sm:text-base">{review.text}</p>
     </div>
   ) : null;
 
@@ -78,7 +54,7 @@ const FormatGoogleReview = ({ review }: { review: GoogleReviewData }) => {
   return (
     <div
       key={review.reviewId}
-      className="mb-8 border border-gray-300 p-4 sm:p-6 rounded-lg shadow-md bg-white flex flex-col"
+      className="mb-8 border border-gray-300 py-4 px-12 sm:py-6 sm:px-12 rounded-lg shadow-md bg-white flex flex-col"
     >
       <div className="flex items-center mb-4">
         {review.reviewerPhotoUrl ? (
