@@ -21,7 +21,7 @@ export default function Nav({ isShort }: NavProps) {
       let scrollThreshold = window.innerHeight;
 
       if (isShort === true) {
-        scrollThreshold = 0.8 * window.innerHeight;
+        scrollThreshold = 0.7 * window.innerHeight;
       }
 
       if (window.scrollY > scrollThreshold) {
