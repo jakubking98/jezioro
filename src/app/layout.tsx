@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -81,7 +82,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${sora.variable} scroll-smooth`}>
-      <body className={`font-sora bg-BodyC text-TextN`}>{children}</body>
+      <body className={`font-sora bg-BodyC text-TextN`}>
+        {children} <Analytics />
+      </body>
     </html>
   );
 }
