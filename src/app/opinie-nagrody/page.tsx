@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 import { GoogleReviewData, ReviewData } from "@/type/type";
 import React from "react";
-import reviewsData from "@/data/Booking.json" assert { type: "json" };
-import googleReviewsData from "@/data/GoogleMap.json" assert { type: "json" };
+import reviewsData from "@/data/Booking.json";
+import googleReviewsData from "@/data/GoogleMap.json";
 import DisplayBookingReviews from "@/components/opinie/formatReview";
 import DisplayGoogleReviews from "@/components/opinie/FormatGoogleReview ";
 import Nav from "@/components/Nav";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/opinie-nagrody" },
 };
 
-export default function page() {
+export default function OpinieNagrodyPage() {
   return (
     <div className="relative min-h-screen max-w-screen ">
       <Nav isShort={true} />
@@ -34,7 +34,7 @@ export default function page() {
             </div>
             <div className="w-full md:w-1/2">
               <DisplayGoogleReviews
-                reviewsData={googleReviewsData as GoogleReviewData[]}
+                reviewsData={googleReviewsData as unknown as GoogleReviewData[]}
               />
             </div>
           </div>

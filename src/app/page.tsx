@@ -8,6 +8,7 @@ export default function HomePage() {
         autoPlay
         loop
         muted
+        playsInline
         className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2"
       >
         <source src="/Jezioro_Strefa.mp4" type="video/mp4" />

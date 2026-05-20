@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { GoogleReviewData } from "@/type/type";
 
 interface DisplayGoogleReviewsProps {
@@ -83,7 +84,7 @@ const DisplayGoogleReviews = ({ reviewsData }: DisplayGoogleReviewsProps) => {
         Opinie z Google Maps
       </h2>
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, Pagination]}
         spaceBetween={20}
         slidesPerView={1}
         navigation={true}

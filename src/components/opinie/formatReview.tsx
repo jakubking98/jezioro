@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { ReviewData } from "@/type/type";
 
 interface DisplayBookingReviewsProps {
@@ -143,7 +144,7 @@ const DisplayBookingReviews = ({ reviewsData }: DisplayBookingReviewsProps) => {
         Opinie z Booking.com
       </h2>
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, Pagination]}
         spaceBetween={20}
         slidesPerView={1}
         navigation={true}
