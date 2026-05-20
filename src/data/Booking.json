@@ -1,30 +1,25 @@
 [
   {
-    "likedText": "Die Lage, Sauberkeit, Größe und Ausstattung. Die freundlichen und hilfsbereiten Vermieter, die uns den Urlaub so angenehm wie möglich gemacht haben.",
-    "dislikedText": "Keine Beanstandungen !!!",
-    "reviewTitle": "Ein Urlaubsidyll",
-    "travelerType": "Family",
-    "userLocation": "Germany",
-    "userName": "Anja",
-    "userAvatar": "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "likedText": "Super miejsce, przemiła właścicielka. Cisza spokój wszystko zgodne z opisem. Idealne miejsce wypadowe do Mrągowa i Mikołajek. Gorąco polecam.",
+    "dislikedText": null,
+    "reviewTitle": "Exceptional",
+    "travelerType": "Group",
+    "userLocation": "Poland",
+    "userName": "Jacek",
+    "userAvatar": "https://xx.bstatic.com/static/img/review/avatars/ava-j.png",
     "rating": 10,
     "propertyResponse": null,
-    "checkInDate": "2025-08-28",
-    "checkOutDate": "2025-09-04",
-    "reviewDate": "2025-09-04T07:02:05.000Z",
-    "images": [
-      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307350.jpg?k=063fe08c61f423c47f71308a4ff7f42ad41870e8f9035d45d78a3663e60a54a0&o=",
-      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307354.jpg?k=e03c175ba7ac5570d3d834ac7bb18e84762e0479a0bd9159fb2ffb6719505994&o=",
-      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307357.jpg?k=8c5f152db4973806da598557b68de96eb73f5ca780e302368521fafc73a7f789&o=",
-      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307358.jpg?k=368626bbb7f07edef200a4c6f0f65d2ab560e5654a49b6dbace61fc1d6b44fd4&o="
-    ],
-    "id": "ca1b344c80eaba97",
+    "checkInDate": "2026-04-30",
+    "checkOutDate": "2026-05-03",
+    "reviewDate": "2026-05-05T16:58:13.000Z",
+    "images": [],
+    "id": "efa55d93f13e75e0",
     "roomInfo": "Four-Bedroom House",
-    "numberOfNights": 7,
-    "reviewLanguage": "de",
+    "numberOfNights": 3,
+    "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -54,16 +49,92 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
+  },
+  {
+    "likedText": "Die Lage, Sauberkeit, Größe und Ausstattung. Die freundlichen und hilfsbereiten Vermieter, die uns den Urlaub so angenehm wie möglich gemacht haben.",
+    "dislikedText": "Keine Beanstandungen !!!",
+    "reviewTitle": "Ein Urlaubsidyll",
+    "travelerType": "Family",
+    "userLocation": "Germany",
+    "userName": "Anja",
+    "userAvatar": "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "rating": 10,
+    "propertyResponse": null,
+    "checkInDate": "2025-08-28",
+    "checkOutDate": "2025-09-04",
+    "reviewDate": "2025-09-04T07:02:05.000Z",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307350.jpg?k=063fe08c61f423c47f71308a4ff7f42ad41870e8f9035d45d78a3663e60a54a0&o=",
+      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307354.jpg?k=e03c175ba7ac5570d3d834ac7bb18e84762e0479a0bd9159fb2ffb6719505994&o=",
+      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307357.jpg?k=8c5f152db4973806da598557b68de96eb73f5ca780e302368521fafc73a7f789&o=",
+      "https://q-xx.bstatic.com/xdata/images/xphoto/max1280x900/575307358.jpg?k=368626bbb7f07edef200a4c6f0f65d2ab560e5654a49b6dbace61fc1d6b44fd4&o="
+    ],
+    "id": "ca1b344c80eaba97",
+    "roomInfo": "Four-Bedroom House",
+    "numberOfNights": 7,
+    "reviewLanguage": "de",
+    "stayRoomId": 1209703801,
+    "helpfulVotes": 0,
+    "totalCategoryReviews": 11,
+    "hotelRatingScores": [
+      {
+        "name": "Staff",
+        "codeName": "hotel_staff",
+        "score": 10
+      },
+      {
+        "name": "Facilities",
+        "codeName": "hotel_services",
+        "score": 10
+      },
+      {
+        "name": "Cleanliness",
+        "codeName": "hotel_clean",
+        "score": 10
+      },
+      {
+        "name": "Comfort",
+        "codeName": "hotel_comfort",
+        "score": 10
+      },
+      {
+        "name": "Value for money",
+        "codeName": "hotel_value",
+        "score": 10
+      },
+      {
+        "name": "Location",
+        "codeName": "hotel_location",
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
+      }
+    ],
+    "hotelId": 12097038,
+    "reviewsScoreFilter": "ALL",
+    "reviewPage": 1,
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
+    "hotelRatingLabel": "Exceptional",
+    "hotelRating": 10,
+    "hotelReviews": 11
   },
   {
     "likedText": "Dom bardzo pięknie położony, bardzo wygodny, przestronny i super wyposażony. Gospodarze ogromnie dbają o czystość i wygodę mieszkańców. Cała moja grupa - 8 osób czuła się bardzo komfortowo.  Zamierzamy za rok znów go odwiedzić. Polecamy z czystym sumieniem 👌",
@@ -85,7 +156,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -115,21 +186,26 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Piękna stodoła! Zdjęcia nie oddają cudownego klimatu. Na powitanie czekała na nas butelka wina - miła niespodzianka :) Podejście właścicieli powinno być wzorem dla innych! Właścicielom gratulujemy i życzymy samych sukcesów, a wszystkich, którzy jeszcze zastanawiają się czy warto, podpowiadam:\n OCZYWIŚCIE, ŻE TAK!",
     "dislikedText": "Brak",
-    "reviewTitle": null,
+    "reviewTitle": "Exceptional",
     "travelerType": "Group",
     "userLocation": "United Kingdom",
     "userName": "Piotr",
@@ -148,7 +224,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -178,21 +254,26 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Piękna, spokojna lokalizacja, miejsce bardzo czyste i zadbane, idealne do wypoczynku",
     "dislikedText": null,
-    "reviewTitle": null,
+    "reviewTitle": "Exceptional",
     "travelerType": "Family",
     "userLocation": "Poland",
     "userName": "Alicja",
@@ -209,7 +290,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -239,21 +320,26 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Z przyjemnością rekomenduję ten domek każdemu, kto szuka idealnego miejsca na wypoczynek z grupą przyjaciół. Domek jest znakomicie wykończony, co czyni pobyt naprawdę komfortowym. Ogromna przestrzeń wspólna pozwala na wspólne spędzanie czasu, co jest dużym atutem. Dodatkowym plusem jest bezpośredni dostęp do jeziora, który zapewnia nie tylko piękne widoki, ale także możliwość korzystania z atrakcji wodnych. Liczba łazienek zdecydowanie ułatwia logistykę w grupie większej liczby osób, co jest nieocenioną zaletą.",
     "dislikedText": null,
-    "reviewTitle": null,
+    "reviewTitle": "Exceptional",
     "travelerType": "Group",
     "userLocation": "Poland",
     "userName": "Ivo",
@@ -270,7 +356,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -300,16 +386,21 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Jeśli chodzi o samo miejsce jest urokliwe , leży nad samym jeziorem. Dom jest niemalże idealny, duży zawiera wszystkie udogodnienia. Na duzy plus są chamaki i fajne miejsce na grilla i na ognisko . Jest po prostu przepięknie i bardzo czysto . Szczerze polecam to miejsce na fajny wypad z rodziną czy przyjaciółmi.",
@@ -331,7 +422,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -361,21 +452,26 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Jezeli mozna opisac ten obiekt jednym slowem to z pewnoscia bedzie to slowo „idealny”, zarowno w jego znaczeniu dla rodzin jak i dla grupy znajomych, wyposazenie domku znakomite, czystosc na najwyzszym poziomie, Panstwo ktorzy dbaja o domek to cudowne, mile i pomocne osoby. Lokalizacja domku to strzal w dziesiatke, dostep do jeziora z pomostem, kajakami oraz lodka, miejsce na ognisko nad woda oraz wiata z grillem, cudowny widok na zachodzace slonce i cisza. Goraco polecamy kazdemu.",
     "dislikedText": null,
-    "reviewTitle": null,
+    "reviewTitle": "Exceptional",
     "travelerType": "Group",
     "userLocation": "Poland",
     "userName": "Wylub",
@@ -392,7 +488,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -422,16 +518,21 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Bardzo urokliwe miejsce. Dom czysty, wyposażony w potrzebny sprzęt, ogromny ogród, gdzie spędziliśmy większość czasu. Na zewnątrz sprzęt do grillowania, palenisko oraz leżaki i huśtawki. Dzieci miały wiele miejsca do zabawy. Plusem jest bezpośredni dostęp do jeziora, gdzie do naszej dyspozycji były dwa kajaki oraz łódka. Okolica cicha i spokojna, a zarazem blisko zarówno do Mrągowa jak i Mikołajek. Bardzo dobry kontakt z właścicielami. Gorąco polecamy 😁",
@@ -453,7 +554,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -483,16 +584,21 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": "Obiekt położony w pięknej oraz spokojnej lokalizacji, do okola cisza oraz natura.  Budynek wykończony w stylu idealnie pasującym do otoczenia dodatkowo o bardzo wysokim standardzie. Całość robi niesamowity nastrój do wypoczynku. Do tego bezproblemowy kontakt z właścicielką. Takie miejsce po prostu można polecić z czystym sumieniem.",
@@ -514,7 +620,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": 0,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -544,21 +650,26 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   },
   {
     "likedText": null,
     "dislikedText": null,
-    "reviewTitle": null,
+    "reviewTitle": "Exceptional",
     "travelerType": "Group",
     "userLocation": "Poland",
     "userName": "Iweta",
@@ -570,7 +681,7 @@
     "reviewDate": "2024-08-18T19:07:16.000Z",
     "images": [
       "https://q-xx.bstatic.com/xdata/images/xphoto/max1280x900/367726898.jpg?k=1251a0834c08d373e4d28f81d7a9e8bea95da51e92644bbd91b78a2049188547&o=",
-      "https://q-xx.bstatic.com/xdata/images/xphoto/max1280x900/367727035.jpg?k=f7274f249d50bedb3a94d42e65d7180025f9a07714eb486a987e8cd146e4ac50&o="
+      "https://r-xx.bstatic.com/xdata/images/xphoto/max1280x900/367727035.jpg?k=f7274f249d50bedb3a94d42e65d7180025f9a07714eb486a987e8cd146e4ac50&o="
     ],
     "id": "5eed8da47562c437",
     "roomInfo": "Four-Bedroom House",
@@ -578,7 +689,7 @@
     "reviewLanguage": "pl",
     "stayRoomId": 1209703801,
     "helpfulVotes": null,
-    "totalCategoryReviews": 10,
+    "totalCategoryReviews": 11,
     "hotelRatingScores": [
       {
         "name": "Staff",
@@ -608,15 +719,20 @@
       {
         "name": "Location",
         "codeName": "hotel_location",
-        "score": 9.80372047424316
+        "score": 9.92438316345215
+      },
+      {
+        "name": "Free Wifi",
+        "codeName": "hotel_free_wifi",
+        "score": 10
       }
     ],
     "hotelId": 12097038,
     "reviewsScoreFilter": "ALL",
     "reviewPage": 1,
-    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html",
+    "startUrl": "https://www.booking.com/hotel/pl/jeziorosfera-stodola-przy-wodzie.pl.html?chal_t=1779312503781&force_referer=#tab-main",
     "hotelRatingLabel": "Exceptional",
     "hotelRating": 10,
-    "hotelReviews": 10
+    "hotelReviews": 11
   }
 ]
