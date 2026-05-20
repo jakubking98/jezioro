@@ -25,7 +25,7 @@ export default function BookingPrize() {
           nagrodę za każdy rok naszej działaności. Do zobaczenia w
           Jeziorosferze.
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 mb-4">
           <div className="relative w-[300px] h-[250px] md:w-[400px] md:h-[400px]">
             <Image
               src="/stodola/opinie/bookingPrize2026.png"
