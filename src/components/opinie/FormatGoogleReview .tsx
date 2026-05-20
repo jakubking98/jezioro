@@ -32,25 +32,6 @@ const FormatGoogleReview = ({ review }: { review: GoogleReviewData }) => {
     </div>
   ) : null;
 
-  // const displayImages =
-  //   review.reviewImageUrls.length > 0 ? (
-  //     <div className="mt-4">
-  //       <p className="font-semibold text-sm sm:text-base">Zdjęcia:</p>
-  //       <div className="flex flex-wrap gap-2">
-  //         {review.reviewImageUrls.map((image, index) => (
-  //           <Image
-  //             key={index}
-  //             src={image}
-  //             alt={`Zdjęcie z opinii ${review.name}`}
-  //             className="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-md"
-  //             width={96}
-  //             height={96}
-  //           />
-  //         ))}
-  //       </div>
-  //     </div>
-  //   ) : null;
-
   return (
     <div
       key={review.reviewId}
@@ -91,7 +72,6 @@ const FormatGoogleReview = ({ review }: { review: GoogleReviewData }) => {
       <p className="text-gray-500 text-xs sm:text-sm">
         Dodano: {formattedDate}
       </p>
-      {/* {displayImages} */}
     </div>
   );
 };

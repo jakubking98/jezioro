@@ -26,8 +26,8 @@ const FormatReview = ({ review }: { review: ReviewData }) => {
 
   const ratingStars =
     typeof review.rating === "number"
-      ? "★".repeat(Math.round(review.rating)) +
-        "☆".repeat(Math.max(0, 5 - Math.round(review.rating)))
+      ? "★".repeat(Math.round(review.rating / 2)) +
+        "☆".repeat(Math.max(0, 5 - Math.round(review.rating / 2)))
       : "";
 
   const displayRating =
